@@ -16,13 +16,13 @@
 PRODUCT_PACKAGES := \
 	HoloSpiralWallpaper \
 	LiveWallpapersPicker \
-	VisualizationWallpapers \
+	VisualizationWallpapers
 
 PRODUCT_PACKAGES += \
     	Camera
 
-# Inherit full-base
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
+# Inherit generic_no_telephony
+$(call inherit-product, $(SRC_TARGET_DIR)/product/generic_no_telephony.mk)
 
 # Inherit from toro device
 $(call inherit-product, device/asus/tf201/device_tf201.mk)
@@ -32,6 +32,6 @@ $(call inherit-product, device/asus/tf201/device_tf201.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_tf201
-PRODUCT_DEVICE := tf101
+PRODUCT_DEVICE := tf201
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := Transformer Prime
