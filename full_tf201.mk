@@ -21,6 +21,9 @@ PRODUCT_PACKAGES := \
 PRODUCT_PACKAGES += \
     	Camera
 
+PRODUCT_PACKAGES += \
+	Logcat
+
 # Inherit generic_no_telephony
 $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_no_telephony.mk)
 
