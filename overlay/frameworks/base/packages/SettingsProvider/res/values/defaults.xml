@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-	Overrides to force the screen into a locked 90 degree rotation
-	to ensure things are displayed correctly by default
--->
-<resources>
-    <bool name="def_accelerometer_rotation">false</bool>
-    <integer name="def_user_rotation">1</integer>
-</resources>
