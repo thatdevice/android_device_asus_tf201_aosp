@@ -157,4 +157,6 @@
     <string name="config_networkLocationProvider">com.google.android.location.NetworkLocationProvider</string>
 
    <string name="config_geocodeProvider">com.google.android.location.GeocodeProvider</string>
+   
+   <integer name="config_lidOpenRotation">0</integer>
 </resources>
