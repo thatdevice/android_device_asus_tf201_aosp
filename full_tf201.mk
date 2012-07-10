@@ -33,6 +33,9 @@ $(call inherit-product, device/asus/tf201/device_tf201.mk)
 # This is where we'd set a backup provider if we had one
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
 
+# Add Breezie Applications
+$(call inherit-product, device/thatdevice/breezie.mk)
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_tf201
 PRODUCT_DEVICE := tf201
